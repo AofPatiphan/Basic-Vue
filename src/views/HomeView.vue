@@ -1,6 +1,9 @@
 <template>
   <div class="home">
+    <div class="vuelogo">
     <img alt="Vue logo" src="../assets/logo.png">
+    </div>
+
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
@@ -16,3 +19,14 @@ export default {
   }
 }
 </script>
+
+<style>
+
+.vuelogo{
+  display: flex;
+  justify-content:center
+}
+
+</style>
+
+
